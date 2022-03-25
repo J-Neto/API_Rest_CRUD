@@ -9,11 +9,11 @@
     - uuid
     - @types/uuid
 
-    - @type/express -D
-    - @type/nodemon -D
+    - @types/express -D
+    - @types/nodemon -D
     - nodemon -D
     - ts-node-dev -D
-    - typescripts -D
+    - typescript -D
 
 ## Passo a passo para o programa funcionar
     0. Antes de tudo, é importante ter o bd já criado, então veja a sessão do bando aqui neste README.md. Ela está por aqui em algum lugar.
