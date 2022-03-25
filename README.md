@@ -4,6 +4,7 @@
     - reflect-metadata
     - typeorm@0.2.41
     - uuid
+    - @types/uuid
 
     - @type/express -D
     - @type/nodemon -D
@@ -25,7 +26,7 @@
                 3.1.1.1. "experimentalDecorators"
                 3.1.1.2. "emitDecoratorMetadata"
             3.1.2. Altere:
-                3.1.2.1. "strict":"false" para "scrict":"true"
+                3.1.2.1. "strict":"true" para "scrict":"false"
     4. Crie o arquivo .env e coloque as variáveis de ambiente referentes as credenciais do banco de dados e typeorm. No meu caso foram:
         TYPEORM_CONNECTION = mysql
         TYPEORM_HOST = localhost
