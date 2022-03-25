@@ -1,3 +1,6 @@
+## Descrição
+    * Uma api que faz um CRUD de jogos e suas respectivas plataformas
+
 ## Dependências utilizadas
     - express
     - mysql2
